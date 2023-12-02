@@ -2,16 +2,21 @@
 Github 101 event for MLSA Event.
 This repo gives an introduction to Open Source & how to make contributions
 
-# Setup
-Open `Git` on your Laptop & paste in the command to clone this repository:
+# Setup 
+- Fork this repository
+- Open `Git` on your Laptop & paste in the command to clone this repository:
 ```
-git clone https://github.com/ShatilKhan/Github101.git
+git clone https://github.com/<your github username>/Github101.git
 ```
-Move into the directory:
+- Move into the directory:
 ```
 cd Github101
 ```
-Open in VS Code:
+- Create New Branch
+```
+git checkout -b feature-branch
+```
+- Open in VS Code:
 ```
 code .
 ```
@@ -24,7 +29,24 @@ code .
 
 ## Submit Pull Request
 - After followint steps from Setup , make necessary changes to the code
-- Open up the terminal on VS Code & paste in the command
+- Open up the terminal on VS Code & Follow the steps below:
+
+  - make changes & commit
+```
+git add .
+git commit -m "Description of changes"
+```
+  - Push to origin
+```
+git push origin feature-branch
+```
+- Now go to your forked repository in the web browser
+ - Switch to the branch you just pushed.
+ - Click on the "New Pull Request" button.
+ - Provide a title and description for your pull request.
+ - Submit the pull request.
+- Make sure to link the issue you solved by using `#` to link the issue
+
 
 
 # Resources
