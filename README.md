@@ -1,6 +1,30 @@
 # Github101
-Github 101 event for MLSA Event
+Github 101 event for MLSA Event.
+This repo gives an introduction to Open Source & how to make contributions
 
+# Setup
+Open `Git` on your Laptop & paste in the command to clone this repository:
+```
+git clone https://github.com/ShatilKhan/Github101.git
+```
+Move into the directory:
+```
+cd Github101
+```
+Open in VS Code:
+```
+code .
+```
+
+# Contributing
+
+## Create Issue
+
+- To make an Issue , just go to Issues tab on on this repository & clicl on `new issue`
+
+## Submit Pull Request
+- After followint steps from Setup , make necessary changes to the code
+- Open up the terminal on VS Code & paste in the command
 
 
 # Resources
